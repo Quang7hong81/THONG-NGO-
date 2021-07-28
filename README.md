@@ -8,7 +8,7 @@ email: quangthong1011@gmail.com
 
 description: News and announcements regarding VBTC, the first Bitcoin live exchange in Vietnam
 
-baseurl: "/"
+baseurl: https://vbtc.exvchange
 
 url: "https://vbtc.github.io"
 
@@ -24,15 +24,24 @@ rss: feed.xml
 
 markdown: kramdown
 
-theme: minima
+theme: minima "~> 2.0"
 
 plugins:
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-134715319-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  - jekyll-feed
+    gtag('config', 'UA-134715319-1');
+</script>
+
+  - jekyll-feed: "~> 0.6"
 
 exclude:
 
-  - .idea/
+  - .idea/90800003
 
   - Gemfile
 
