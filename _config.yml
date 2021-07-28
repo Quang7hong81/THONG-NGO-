@@ -1,10 +1,10 @@
 # vbtc.github.io configuration
 
 title: VBTC Blog
-author: VBTC
-email: support@vbtc.vn
+author: Thong Ngo
+email: quangthong1011@gmail.com
 description: News and announcements regarding VBTC, the first Bitcoin live exchange in Vietnam
-baseurl: "/"
+baseurl: https://vbtc.exchange
 url: "https://vbtc.github.io"
 show_excerpts: true
 
@@ -20,3 +20,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
