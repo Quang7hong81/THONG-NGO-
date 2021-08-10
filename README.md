@@ -1,16 +1,17 @@
-# VBTC
-Official blog of the VBTC exchange
-title: The VBTC Blog
+# THONG NGO
+vbtc.exchange
+title: Buy or sell bitcoins in Vietnam
 
 author: THONG NGO
 
 email: quangthong1011@gmail.com
 
-description: News and announcements regarding VBTC, the first Bitcoin live exchange in Vietnam
+description:
+Vietnamese alphabet, Tiền, Bitcoin, Vietnamese cash, Vietnam, Names of Vietnam, Li (unit), Email, Baozi, Tael, Tin, Blockchain, Vietnamese units of measurement, Chi (letter), Catalan orthography, String of cash coins (currency unit), Ma (surname), Pakistan, Mua District, List of Latin-script digraphs,
 
 baseurl: https://vbtc.exvchange
 
-url: "https://vbtc.github.io"
+url: "https://vbtc.exchange"
 
 show_excerpts: true
 
@@ -41,7 +42,7 @@ plugins:
 
 exclude:
 
-  - .idea/90800003
+  - .idea/Pato_904029
 
   - Gemfile
 
